@@ -1,5 +1,7 @@
+
 @import "tailwindcss";
-@import "tailwindcss";
+@import "tailwindcss-intersect";
+@plugin "tailwindcss-motion";
 @plugin "flyonui";
 @import "flyonui/variants.css"; /* Require only if you want to use FlyonUI JS component */
 
