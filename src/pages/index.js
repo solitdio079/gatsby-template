@@ -3,7 +3,7 @@ import Layout from "../components/Layout"
 export default function IndexPage() {
   return (
     <Layout>
-      <h1 className="text-3xl font-bold underline">
+      <h1 className="text-3xl my-5 font-bold underline">
         Hello world!
       </h1>
     </Layout>
