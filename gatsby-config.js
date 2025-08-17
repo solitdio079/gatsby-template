@@ -6,5 +6,11 @@ module.exports = {
     title: `gatsby-template`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    'gatsby-plugin-postcss',
+    `gatsby-transformer-sharp`, // Needed for dynamic images
+    
+  ],
 }
